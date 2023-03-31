@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- documento xml da validare -->
+<!-- 
+    file: esercizio2
+    nome: Daniele Macchiarini
+    data: 21/03/2023
+-->
+
+<!-- corpo del documento XML-->
+<radice>
+    <elemento>
+        <elementoFiglio>
+        </elementoFiglio>
+
+        <elementoFiglio>
+        </elementoFiglio>
+        
+    </elemento>
+</radice>
+<!-- epilogo -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "esercizio3.dtd">
+<!-- 
+    file: esercizio3.xml
+    nome: Daniele Macchiarini
+    data: 27/03/2023
+-->
+
+<!-- corpo del documento XML-->
+<TEI>
+    <header>
+        allah
+    </header>
+
+    <facsimile>
+        peso
+    </facsimile>
+
+    <text>
+        marco
+    </text>
+    
+</TEI>
+<!-- epilogo -->

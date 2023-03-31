@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "esercizio4.dtd">
+<!-- 
+    file: esercizio4.xml
+    nome: Daniele Macchiarini
+    data: 30/03/2023
+-->
+
+<!-- corpo del documento XML-->
+<TEI>
+    <header></header>
+
+    <facsimile source = "google.com"></facsimile>
+
+    <text id = "a120">
+
+        Ciao a tutti questa è una, <seg>prova</seg> dell'elemento <seg>seg.</seg>
+    
+    </text>
+
+</TEI>
+<!-- epilogo -->

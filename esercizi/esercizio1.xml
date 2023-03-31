@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- documento xml da validare -->
+<!-- 
+    file: esercizio1.xml
+    nome: Daniele Macchiarini
+    data: 21/03/2023
+-->
+
+<!-- corpo del documento XML-->
+<elementoRadice>
+    <elementoFiglio>
+        <elementoAnnidato>
+        </elementoAnnidato>
+    </elementoFiglio>
+    <elementoFiglio>
+        <elementoAnnidato>
+            <elementoAnnidato>
+                <elementoFiglio>
+                <!-- elemento figlio aggiunto -->
+                </elementoFiglio>
+
+                <elementoFratello>
+                <!-- elemento fratello aggiunto -->
+                </elementoFratello>
+            </elementoAnnidato>
+            <!-- chiuso tag elemento annidato -->
+            <elementoFiglio>
+            </elementoFiglio>
+            <!-- chiuso tag elemento figlio -->
+        </elementoAnnidato>
+            <elementoFiglio>
+            <!-- aperto tag elemeto figlio -->
+            </elementoFiglio>
+        <elementoAnnidato>
+            <elementoFiglio>
+            </elementoFiglio>
+        </elementoAnnidato> 
+        <!-- tag </elementoAnnidato> chiuso -->
+    </elementoFiglio>
+</elementoRadice>
+
+<!-- epilogo -->
