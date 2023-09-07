@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html
+{
+	scroll-behavior: smooth;
+    height: 100%;
+
+}
+
+body {
+	font-family: Roboto, Helvetica, sans-serif;
+	letter-spacing: 0.050em;
+	overflow-x: hidden;
+	margin: 0px;
+	font-size: 18px;
+}
+
+/*header*/
+header{
+  
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background: #143377;
+    z-index: 2;
+}
+
+/*menù*/
+#menu{
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+}
+
+header ul li{
+    text-decoration: none;
+    display: block;
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 16.5%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+header ul li a{
+    color:aliceblue;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+}
+
+header ul li a:visited{
+    color:aliceblue;
+}
+
+/*main*/
+
+main{
+    margin-top: 50px;
+}
+
+#boxIniziale{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    background-color: #2070cc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+img:not(.immag){
+    width: 190px;
+    height: 270px;
+}
+
+#testoArtom{
+    margin-top: 40px;
+    display: grid;
+    justify-items: center;
+    row-gap: 0;
+}
+
+
+/*informazioni sulla fonte*/
+
+#fonte{
+    background-color: #aaddff;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.infoFonte{
+    margin-left: 30px;
+}
+
+#spazioBottoni{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.bottone{
+    width: 80%;
+    border: 3px solid #2070cc;
+    color: white;
+    background-color: #143377;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.funzioni{
+
+    width: 90%;
+    border: 3px solid #143377;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.attivato{
+    opacity: 0.7;
+}
+
+.abbreviazioni{
+    background-color: palevioletred;
+}
+
+.aggiunte{
+    background-color: red;
+}
+
+.correzioni{
+    background-color: yellow;
+}
+
+.testoAgg{
+    background-color: blueviolet;
+}
+
+.cancellature{
+    background-color: chocolate;
+}
+
+.nonForm{
+    background-color: magenta;
+}
+
+.luoghi{
+    background-color: blue;
+}
+
+.persone{
+    background-color: green;
+}
+
+
+.visibile{
+    display: block;
+}
+
+.visibile2{
+    display: inline;
+}
+
+.nascosto{
+    display: none;
+}
+
+
+#cdec{
+    text-decoration: none;
+    color: orange;
+}
+
+#cdec:visited{
+    color:orange;
+}
+
+/* corpo fonte --> immagine + trascrizione */
+
+.pagina{
+    /* border: 1px solid black; */
+    background-color: #aaddff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.immag {
+	max-width: 70%;
+}
+
+.testo{
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.evidenziata{
+    background-color: aqua;
+}
+
+.btnFunzioni{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+/*footer*/
+
+footer{
+    margin-bottom: 0;
+    background-color: #143377;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* MEDIA QUERIES */
+
+/* laptop medie dimensioni */
+
+@media screen and (max-width: 1025px){
+
+    .testo{
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    #descrizione, #dettagli, #conservazione{
+        font-size: 14px;
+    }
+
+    #imgArtom1{
+        display: none;
+    }
+
+    #boxIniziale{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        justify-items: center;
+        background-color: #2070cc;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .immag{
+        max-width: 90%;
+    }
+
+    .funzioni{
+        font-size: 10px;
+    }
+    
+}
+
+/* tablet */
+
+@media screen and (max-width: 769px){
+
+    .testo{
+        font-size: 12px;
+    }
+
+    .bottone, .funzioni {
+        font-size: 12px;
+    }
+
+    #imgArtom1{
+        display: none;
+    }
+
+    #boxIniziale{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        justify-items: center;
+        background-color: #2070cc;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .funzioni{
+        font-size: 10px;
+    }
+    
+}
+
+/* cell grande */
+
+@media screen and (max-width: 481px){
+
+    #menu li{
+
+        width: 50px;
+    }
+
+    
+    #descrizione, #dettagli, #conservazione{
+        font-size: 12px;
+    }
+
+    li a{
+        font-size: 10px;
+    }
+
+    #boxIniziale{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        justify-items: center;
+        background-color: #2070cc;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    #imgArtom1{
+        display: none;
+    }
+    
+    #imgArtom2{
+        margin-top: 10px;
+    }
+
+    .testo{
+        font-size: 10px;
+        margin-top: 0;
+    }
+
+    .bottone, .funzioni {
+        font-size: 10px;
+    }
+
+    #btnCerca{
+        font-size: 10px;
+    }
+
+    .infoFonte{
+        margin-left: 0;
+    }
+
+    .btnFunzioni{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .immag{
+        margin-left: 15px;
+        max-width: 85%;
+    }
+
+    #testoArtom{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    #cercaParola{
+        width: 140px;
+    }
+    
+}
