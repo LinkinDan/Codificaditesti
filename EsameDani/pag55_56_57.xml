@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<!-- 
+    Filename: pag55_56_57.xml
+    Author: Daniele Macchiarini
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <!-- Fornisce metadati descrittivi e dichiarativi associati a una risorsa digitale o a un insieme di risorse -->
+    <teiHeader>
+		
+		<!-- Descrizione bibliografica completa di un file elettronico -->
+		<fileDesc>
+		
+			<!-- Informazioni sul titolo dell'opera e sui responsabili del suo contenuto -->
+			<titleStmt>
+				<title xml:lang="it" type="full">Diari di Emanuele Artom - Edizione digitale</title>
+				<title type="sub">Novembre 1943 - Febbraio 1944</title>   
+				<author role="author" ref="#EA">Emanuele Artom</author>
+			</titleStmt>
+			
+			<!-- Informazioni relative l'edizione del testo -->
+			<editionStmt>
+				<edition>Edizione digitale realizzata per l'esame di Codifica di Testi (corso di laurea in Informatica Umanistica - UNIPI) a.a. 2022/23.
+					<date when="2023-08">Agosto 2023</date>
+				</edition>
+				<respStmt>
+					<resp>Progetto coordinato da </resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+				</respStmt>
+				<respStmt>
+					<resp>Codifica di </resp>
+					<name ref="#DM">Daniele Macchiarini</name>
+					<note>Matr: 615976 </note>
+				</respStmt>
+			</editionStmt>
+			
+			<!-- Informazioni sulla pubblicazione -->
+			<publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa, PI</pubPlace>
+				<address>
+					<postCode>56127</postCode>
+					<name>Italia</name>
+				</address>
+				<availability status="free">
+					<p>Opera ad accesso libero</p>
+				</availability>
+                <date when="2023-08">Agosto 2023</date>
+			</publicationStmt>
+			
+			<!-- Descrizione della fonte originale da cui deriva il documento elettronico -->
+			<sourceDesc>
+				
+				<!-- Descrizione di un singolo manoscritto  -->
+				<msDesc>
+				
+					<!-- Informazioni necessarie per l'identificazione del manoscritto -->
+					<msIdentifier>
+						<country key="IT" type="nation">Italia</country>
+						<settlement>Milano</settlement>
+						<institution ref="#CDEC">Centro di documentazione ebraica contemporanea</institution>
+						<repository role="history institute" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">
+							<orgName ref="#CDEC">Centro di documentazione ebraica contemporanea</orgName>
+						</repository>
+						<collection>Fondo Emanuele Artom</collection>
+						<idno type="inventory">IT-CDEC-ST0003-000006 - b.1, fasc.9</idno> <!-- IT-CDEC-ST0003-000006 -->
+					</msIdentifier>
+					
+					<!-- Descrizive il contenuto intellettuale del manoscritto -->
+					<msContents>
+						<!-- Descrive una singola opera all'interno del contenuto intellettuale del manoscritto -->
+						<msItem>
+							<title type="main">Diari ARTOM</title>
+							<author ref="#EA">Emanuele Artom</author>
+							<docDate><date from="1943-11-30" to="1943-12-2">30 novembre 1943 - 2 dicembre 1943</date></docDate>
+							<textLang mainLang="it">Italiano</textLang>
+						</msItem>
+					</msContents>
+
+					<!-- Descrizione fisica del manoscritto -->
+					<physDesc>
+					
+						<objectDesc form="folio">
+							<supportDesc material="paper" source="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html">
+								<support>Pagine di <material>carta</material></support>
+								
+								<extent>
+									<measure unit="pages" source="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html"> 
+										Il diario, preceduto da due pagine contenenti l'appunto di <persName ref="#ASA">Amalia Segre Artom</persName>, è composto da <num type="cardinal">172</num> pagine. 
+									</measure>
+								</extent>
+								
+								<condition>Il documento è in buone condizioni, nonostante alcune pagine presentino strappi nei bordi sinistro o destro, cancellature e quelle che sembrano essere macchie o bruciature.</condition>
+							</supportDesc>
+							<layoutDesc>
+								<p>Normalmente ogni pagina è formata da 22 righe disposte su un'unica colonna.</p>
+							</layoutDesc>
+						</objectDesc>
+						
+						<handDesc hands="2">
+							<handNote scope="minor" medium="black pen red pen" script="cursive"> 
+								Il manoscritto si apre con una lettera di <persName ref="#ASA">Amalia Segre Artom</persName> scritta a penna, in corsivo.
+							</handNote>
+							<handNote scope="major" medium="black pen pencil greenish-ink" script="cursive">
+								Il testo principale, che inizia dalla seconda pagina del manoscritto, è stato scritto a mano da <persName ref="#EA">Emanuele Artom</persName>.
+							</handNote>
+						</handDesc>
+						
+						<typeDesc>
+							<p>Il documento è scritto in corsivo e presenta alcune cancellature e aggiunte.</p>
+						</typeDesc>
+						
+						<accMat>Il diario di <persName ref="#EA">Emanuele Artom</persName> è accompagnato dalla lettera originale della madre <persName ref="#ASA">Amalia Segre Artom</persName></accMat>
+					</physDesc>
+					
+					<!-- Descrizione della storia completa del manoscritto -->
+					<history>
+						<origin from="1943-11" to="1944-02-23">
+							<p>
+								I diari contenenti gli scritti autografi di <persName ref="#EA">Emanuele Artom</persName> sono stati 
+								raccolti dalla madre, <persName ref="#ASA">Amalia Segre Artom</persName>, per il bisogno di ricordare o trasmettere le memorie del figlio <persName ref="#EA">Emanuele</persName>.
+							</p>
+						</origin>
+						
+						<acquisition>
+							<p>
+								I diari di <persName ref="#EA">Emanuele Artom</persName> sono stati ordinati grazie alla collaborazione della fondazione <orgName ref="#CDEC">CDEC</orgName>.
+								Tutta la documentazione, in originale e copia, è stata completamente ricondizionata e digitalizzata 
+								al fine di garantirne la consultabilità a fini storici.
+							</p>
+						</acquisition>
+					</history>
+					
+				</msDesc>
+				
+			</sourceDesc>
+			
+		</fileDesc>
+		
+		<!-- Relazione tra il documento elettronico e la fonte da cui è derivato -->
+		<encodingDesc>
+			<projectDesc>
+				<p>Edizione digitale realizzata per l'esame di Codifica di Testi (corso di laurea in Informatica umanistica - UNIPI) a.a. 2022/23. Agosto 2023.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction method="markup" status="high">
+					<p>
+						Nella codifica gli errori nel testo sono stati marcati utilizzando il tag <gi>sic</gi>, all'interno 
+						del tag <gi>choice</gi>, dentro a cui l'occorrenza viene anche corretta all'interno del tag <gi>corr</gi>.
+						Errori rilevati e corretti nel testo:
+							- "perchè" corretto in "perché", a pagina 55 riga 11 e a pagina 56 riga 3
+					</p>
+				</correction>
+				<normalization method="markup">
+					<p>
+											
+						Nella codifica sono state marcate le normalizzazioni utilizzando il tag <gi>orig</gi>, all'interno 
+						del tag <gi>choice</gi>, dentro a cui l'occorrenza viene normalizzata all'interno del tag <gi>reg</gi>.
+						Normalizzazioni effettuate durante la codifica:
+							- "Morte" normalizzato in "morte", a pagina 55 riga 3 e riga 15.
+							- "È" (#200) normalizzato in "è", a pagina 57 riga 8.
+							- "9" normalizzato in "nove", a pagina 57 riga 18.
+
+					</p>
+				</normalization>
+				<hyphenation eol="all">
+                    <p> La sillabazione nei ritorni a capo è stata mantenuta e segnalata attraverso l'attributo <att>break</att> dell'elemento <gi>lb</gi>.</p>
+                </hyphenation>
+				<punctuation marks="all" placement="internal">
+                    <p> Sono stati mantenuti i segni di punteggiatura originali. </p>
+                </punctuation>
+                <quotation marks="all">
+                    <p> Eventuali virgolette presenti nel testo sono state mantenute. Sono state aggiunte quelle mancanti attraverso l'elemento <gi>supplied</gi>. </p>
+                </quotation>
+
+			</editorialDecl>
+			
+			<refsDecl>
+				<p>I riferimenti sono realizzati attraverso le coppie di attributi <att>xml:id</att> e <att>ref</att>.</p>
+			</refsDecl>
+		</encodingDesc>
+		
+		<!-- Descrizione aspetti non bibliografici come le lingue e i linguaggi secondari -->
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italiano</language>
+			</langUsage>
+		</profileDesc>
+	
+	</teiHeader>
+
+    <!-- Rappresentazione di una fonte scritta sotto forma di immagini -->
+    <facsimile>
+        <!-- PAGINA 55-->
+        <surface xml:id="fs_pag55" n="1">
+            <graphic xml:id="gr_pag55" url="imgs/pag55.jpg" width="763px" height="1024px" n="55" />
+                <zone xml:id="gr_pag55_r1" ulx="102" uly="84" lrx="657" lry="110" rendition="line" />
+                <zone xml:id="gr_pag55_r2" ulx="103" uly="125" lrx="657" lry="148" rendition="line" />
+                <zone xml:id="gr_pag55_r3" ulx="103" uly="170" lrx="657" lry="192" rendition="line" />
+                <zone xml:id="gr_pag55_r4" ulx="100" uly="201" lrx="658" lry="232" rendition="line" />
+                <zone xml:id="gr_pag55_r5" ulx="103" uly="247" lrx="683" lry="277" rendition="line" />
+                <zone xml:id="gr_pag55_r6" ulx="101" uly="283" lrx="655" lry="306" rendition="line" />
+                <zone xml:id="gr_pag55_r7" ulx="101" uly="322" lrx="655" lry="347" rendition="line" />
+                <zone xml:id="gr_pag55_r8" ulx="104" uly="363" lrx="672" lry="386" rendition="line" />
+                <zone xml:id="gr_pag55_r9" ulx="101" uly="394" lrx="657" lry="426" rendition="line" />
+                <zone xml:id="gr_pag55_r10" ulx="101" uly="442" lrx="657" lry="464" rendition="line" />
+                <zone xml:id="gr_pag55_r11" ulx="102" uly="482" lrx="657" lry="505" rendition="line" />
+                <zone xml:id="gr_pag55_r12" ulx="100" uly="522" lrx="656" lry="547" rendition="line" />
+                <zone xml:id="gr_pag55_r13" ulx="102" uly="559" lrx="655" lry="586" rendition="line" />
+                <zone xml:id="gr_pag55_r14" ulx="101" uly="601" lrx="657" lry="622" rendition="line" />
+                <zone xml:id="gr_pag55_r15" ulx="101" uly="631" lrx="657" lry="662" rendition="line" />
+                <zone xml:id="gr_pag55_r16" ulx="99" uly="680" lrx="657" lry="700" rendition="line" />
+                <zone xml:id="gr_pag55_r17" ulx="99" uly="716" lrx="674" lry="740" rendition="line" />
+                <zone xml:id="gr_pag55_r18" ulx="99" uly="756" lrx="669" lry="782" rendition="line" />
+                <zone xml:id="gr_pag55_r19" ulx="99" uly="790" lrx="655" lry="820" rendition="line" />
+                <zone xml:id="gr_pag55_r20" ulx="99" uly="836" lrx="685" lry="860" rendition="line" />
+                <zone xml:id="gr_pag55_r21" ulx="99" uly="878" lrx="653" lry="898" rendition="line" />
+                <zone xml:id="gr_pag55_r22" ulx="99" uly="918" lrx="655" lry="936" rendition="line" />
+
+                <note>Pagina 55</note>
+
+        </surface>
+
+        <!-- PAGINA 56-->
+        <surface xml:id="fs_pag56" n="2">
+            <graphic xml:id="gr_pag56" url="imgs/pag56.jpg" width="756px" height="1024px" n="56" />
+                <zone xml:id="gr_pag56_r1" ulx="113" uly="76" lrx="666" lry="112" rendition="line" />
+                <zone xml:id="gr_pag56_r2" ulx="105" uly="124" lrx="659" lry="153" rendition="line" />
+                <zone xml:id="gr_pag56_r3" ulx="113" uly="171" lrx="663" lry="190" rendition="line" />
+                <zone xml:id="gr_pag56_r4" ulx="111" uly="200" lrx="669" lry="230" rendition="line" />
+                <zone xml:id="gr_pag56_r5" ulx="109" uly="251" lrx="661" lry="270" rendition="line" />
+                <zone xml:id="gr_pag56_r6" ulx="111" uly="288" lrx="657" lry="310" rendition="line" />
+                <zone xml:id="gr_pag56_r7" ulx="111" uly="326" lrx="659" lry="352" rendition="line" />
+                <zone xml:id="gr_pag56_r8" ulx="111" uly="366" lrx="659" lry="385" rendition="line" />
+                <zone xml:id="gr_pag56_r9" ulx="112" uly="406" lrx="662" lry="425" rendition="line" />
+                <zone xml:id="gr_pag56_r10" ulx="111" uly="432" lrx="663" lry="466" rendition="line" />
+                <zone xml:id="gr_pag56_r11" ulx="111" uly="478" lrx="662" lry="504" rendition="line" />
+                <zone xml:id="gr_pag56_r12" ulx="111" uly="522" lrx="664" lry="548" rendition="line" />
+                <zone xml:id="gr_pag56_r13" ulx="110" uly="559" lrx="661" lry="585" rendition="line" />
+                <zone xml:id="gr_pag56_r14" ulx="108" uly="602" lrx="658" lry="626" rendition="line" />
+                <zone xml:id="gr_pag56_r15" ulx="108" uly="642" lrx="679" lry="663" rendition="line" />
+                <zone xml:id="gr_pag56_r16" ulx="107" uly="676" lrx="659" lry="704" rendition="line" />
+                <zone xml:id="gr_pag56_r17" ulx="107" uly="717" lrx="656" lry="740" rendition="line" />
+                <zone xml:id="gr_pag56_r18" ulx="105" uly="760" lrx="657" lry="782" rendition="line" />
+                <zone xml:id="gr_pag56_r19" ulx="106" uly="796" lrx="658" lry="823" rendition="line" />
+                <zone xml:id="gr_pag56_r20" ulx="107" uly="834" lrx="656" lry="862" rendition="line" />
+                <zone xml:id="gr_pag56_r21" ulx="106" uly="873" lrx="655" lry="899" rendition="line" />
+                <zone xml:id="gr_pag56_r22" ulx="105" uly="916" lrx="672" lry="940" rendition="line" />
+
+
+                <note>Pagina 56</note>
+
+        </surface>
+
+
+        <!-- PAGINA 57 -->
+        <surface xml:id="fs_pag57" n="3">
+            <graphic xml:id="gr_pag57" url="imgs/pag57.jpg" width="756px" height="1024px" n="57" />
+				<zone ulx="184" xml:id="add_pag57_r3" uly="19" lrx="710" lry="80" rendition="line" />
+				<zone ulx="88" xml:id="gr_pag57_r1" uly="87" lrx="643" lry="110" rendition="line" />
+				<zone ulx="90" xml:id="gr_pag57_r2" uly="126" lrx="631" lry="145" rendition="line" />
+				<zone ulx="91" xml:id="gr_pag57_r3" uly="164" lrx="641" lry="188" rendition="line" />
+				<zone ulx="93" xml:id="gr_pag57_r4" uly="206" lrx="643" lry="226" rendition="line" />
+				<zone ulx="94" xml:id="gr_pag57_r5" uly="249" lrx="643" lry="270" rendition="line" />
+				<zone ulx="91" xml:id="gr_pag57_r6" uly="285" lrx="643" lry="307" rendition="line" />
+				<zone ulx="93" xml:id="gr_pag57_r7" uly="325" lrx="643" lry="345" rendition="line" />
+				<zone ulx="93" xml:id="gr_pag57_r8" uly="364" lrx="645" lry="382" rendition="line" />
+				<zone ulx="93" xml:id="gr_pag57_r9" uly="401" lrx="643" lry="424" rendition="line" />
+				<zone ulx="93" xml:id="gr_pag57_r10" uly="443" lrx="643" lry="462" rendition="line" />
+				<zone ulx="94" xml:id="gr_pag57_r11" uly="483" lrx="643" lry="502" rendition="line" />
+				<zone ulx="93" xml:id="gr_pag57_r12" uly="520" lrx="645" lry="542" rendition="line" />
+				<zone ulx="95" xml:id="gr_pag57_r13" uly="560" lrx="642" lry="580" rendition="line" />
+				<zone ulx="93" xml:id="gr_pag57_r14" uly="600" lrx="707" lry="622" rendition="line" />
+				<zone ulx="95" xml:id="gr_pag57_r15" uly="640" lrx="658" lry="663" rendition="line" />
+				<zone ulx="95" xml:id="gr_pag57_r16" uly="674" lrx="653" lry="697" rendition="line" />
+				<zone ulx="94" xml:id="gr_pag57_r17" uly="715" lrx="646" lry="739" rendition="line" />
+				<zone ulx="93" xml:id="gr_pag57_r18" uly="759" lrx="644" lry="776" rendition="line" />
+				<zone ulx="97" xml:id="gr_pag57_r19" uly="796" lrx="646" lry="819" rendition="line" />
+				<zone ulx="95" xml:id="gr_pag57_r20" uly="836" lrx="647" lry="859" rendition="line" />
+				<zone ulx="97" xml:id="gr_pag57_r21" uly="877" lrx="687" lry="896" rendition="line" />
+				<zone ulx="96" xml:id="gr_pag57_r22" uly="919" lrx="647" lry="934" rendition="line" />
+				<zone ulx="94" xml:id="gr_pag57_r23" uly="945" lrx="647" lry="968" rendition="line" />
+				<zone ulx="97" xml:id="gr_pag57_r24" uly="978" lrx="575" lry="996" rendition="line" />
+
+
+            <note>Pagina 57</note>
+
+        </surface>
+
+    </facsimile>
+
+
+	<!-- Trascrizione testo del documento -->
+	<text xml:id="text_55_56_57" xml:lang="it" hand="#EA" type="diary" subtype="manuscript">
+
+		<body>
+
+			<div>
+				 
+				<ab type="page" n="155" xml:lang="it">
+
+					<!-- Indica l'inizio di una pagina in un documento (Pagina 55)-->
+					<pb xml:id="pag55" facs="#fs_pag55"/>
+
+					<!-- Riga 1; Pagina 55-->
+					<lb xml:id="r1p55" facs="#gr_pag55_r1" n="1" break="no"/>
+					fa<pc type="comma">,</pc> in un alberghetto di <placeName><settlement ref="#TP" type="municipality"><choice><abbr type="acronym">T.P.</abbr><expan>Torre Pellice</expan></choice></settlement></placeName> scherzare
+				
+					<!-- Riga 2; Pagina 55-->
+					<lb xml:id="r2p55" facs="#gr_pag55_r2" n="2" break="no"/>
+					sulla vita di banda<pc type="comma">,</pc> senza sentirsi tanto
+
+					<!-- Riga 3; Pagina 55-->
+					<lb xml:id="r3p55" facs="#gr_pag55_r3" n="3" break="yes"/>
+					vicina la <choice><orig>Morte</orig><reg>morte</reg></choice><pc type="period">.</pc> In ultimo lo interroga<pc type="hyphenation">=</pc>
+
+					<!-- Riga 4; Pagina 55-->
+					<lb xml:id="r4p55" facs="#gr_pag55_r4" n="4" break="yes"/>
+					rono sulla sua famiglia e sulla sua reli<pc type="hyphenation">=</pc>
+
+					<!-- Riga 5; Pagina 55-->
+					<lb xml:id="r5p55" facs="#gr_pag55_r5" n="5" break="no"/>
+					gione<pc type="comma">,</pc> ma <del rend="overstrike" hand="#EA">si <unclear reason="illegible" cert="low"><supplied reason="illegible" resp="#DM" cert="low">non</supplied></unclear></del> non volle dire nulla<pc type="period">.</pc>
+
+					<!-- Riga 6; Pagina 55-->
+					<lb xml:id="r6p55" facs="#gr_pag55_r6" n="6" break="yes"/>
+					Avrebbe potuto<pc type="comma">,</pc> meglio di ogni altro<pc type="comma">,</pc> fuggi<pc type="hyphenation">=</pc>
+
+					<!-- Riga 7; Pagina 55-->
+					<lb xml:id="r7p55" facs="#gr_pag55_r7" n="7" break="no"/>
+					re in <placeName><country ref="CH">Svizzera</country></placeName> dove ha la famiglia<pc type="comma">,</pc>
+
+					<!-- Riga 8; Pagina 55-->
+					<lb xml:id="r8p55" facs="#gr_pag55_r8" n="8" break="no"/>
+					ma preferì restare con noi per combattere<pc type="period">.</pc>
+
+					<!-- Riga 9; Pagina 55-->
+					<lb xml:id="r9p55" facs="#gr_pag55_r9" n="9" break="no"/>
+					Penso a<del rend="scribble" hand="#EA">i</del> suo<subst><del rend="overstrike" hand="#EA">i genitori</del><add hand="#EA" place="above"> padre e sua madre</add></subst><pc type="comma">,</pc> ad Alda che
+
+					<!-- Riga 10; Pagina 55-->
+					<lb xml:id="r10p55" facs="#gr_pag55_r10" n="10" break="no"/>
+					una sera <subst><del rend="overwrite" hand="#EA">4</del><add>5</add></subst> o <subst><del rend="overwrite" hand="#EA">5</del><add>6</add></subst> anni fa, a <placeName>Courmayeur</placeName>
+
+					<!-- Riga 11; Pagina 55-->
+					<lb xml:id="r11p55" facs="#gr_pag55_r11" n="11" break="no"/>
+					piangeva <choice><sic>perchè</sic><corr resp="#DM">perché</corr></choice> tardava a tornare
+
+					<!-- Riga 12; Pagina 55-->
+					<lb xml:id="r12p55" facs="#gr_pag55_r12" n="12" break="yes"/>
+					da una gita<pc type="comma">,</pc> penso anche ai miei ge<pc type="hyphenation">=</pc>
+
+					<!-- Riga 13; Pagina 55-->
+					<lb xml:id="r13p55" facs="#gr_pag55_r13" n="13" break="no"/>
+					nitori che quando riceveranno questa
+
+					<!-- Riga 14; Pagina 55-->
+					<lb xml:id="r14p55" facs="#gr_pag55_r14" n="14" break="no"/>
+					notizia temeranno di più per me<pc type="period">.</pc>
+
+					<!-- Riga 15; Pagina 55-->
+					<lb xml:id="r15p55" facs="#gr_pag55_r15" n="15" break="yes"/>
+					Il giovane di <placeName><settlement ref="#TP" type="municipality"><choice><abbr type="acronym">T.P.</abbr><expan>Torre Pellice</expan></choice></settlement></placeName> <subst><del rend="overwrite" hand="#EA">m</del><add>c</add></subst>i raccontò che i rap<pc type="hyphenation">=</pc>
+
+					<!-- Riga 16; Pagina 55-->
+					<lb xml:id="r16p55" facs="#gr_pag55_r16" n="16" break="no"/>
+					porti fra le due bande sono sempre meno
+
+					<!-- Riga 17; Pagina 55-->
+					<lb xml:id="r17p55" facs="#gr_pag55_r17" n="17" break="no"/>
+					buoni<pc type="semicolon">;</pc> anche <persName ref="#GS"><choice><abbr>G<pc type="period">.</pc></abbr><expan resp="#DM" cert="medium">Giorio</expan></choice></persName> riconosce che io ho ricevuto
+
+					<!-- Riga 18; Pagina 55-->
+					<lb xml:id="r18p55" facs="#gr_pag55_r18" n="18" break="yes"/>
+					un posto dove non posso esplicare nessuna at<pc type="hyphenation">=</pc>
+
+					<!-- Riga 19; Pagina 55-->
+					<lb xml:id="r19p55" facs="#gr_pag55_r19" n="19" break="no"/>
+					ività politica e si sente anche lui estraniato<pc type="period">.</pc>
+
+					<!-- Riga 20; Pagina 55-->
+					<lb xml:id="r20p55" facs="#gr_pag55_r20" n="20" break="no"/>
+					Ne parlerà con quello di <placeName><settlement ref="#TP" type="municipality"><choice><abbr type="acronym">T.P.</abbr><expan>Torre Pellice</expan></choice></settlement></placeName> e poi mi farà
+
+					<!-- Riga 21; Pagina 55-->
+					<lb xml:id="r21p55" facs="#gr_pag55_r21" n="21" break="no"/>
+					sapere qualche cosa<pc type="period">.</pc> Oggi lo condussi in
+
+					<!-- Riga 22; Pagina 55-->
+					<lb xml:id="r22p55" facs="#gr_pag55_r22" n="22" break="no"/>
+					questa mia casa<pc type="period">.</pc> Entrato nella prima
+
+
+				</ab>
+
+				<ab type="page" n="256" xml:lang="it">
+
+					<!-- Indica l'inizio di una pagina in un documento (Pagina 56)-->
+					<pb xml:id="pag56" facs="#fs_pag56"/>
+
+					<!-- Riga 1; Pagina 56-->
+					<lb xml:id="r1p56" facs="#gr_pag56_r1" n="1" break="no"/>
+					stanza<pc type="comma">,</pc> al piano ter<damage agent="fire"><supplied reason="damaged" resp="#DM" cert="high">ren</supplied>o<pc type="comma">,</pc></damage> dove in verità
+
+					<!-- Riga 2; Pagina 56-->
+					<lb xml:id="r2p56" facs="#gr_pag56_r2" n="2" break="no"/>
+					non abito mai<pc type="comma">,</pc> mi disse<pc type="colon">:</pc><q type="spoken"><supplied reason="omitted-in-original" resp="#DM"><pc type="quote">"</pc></supplied>vorrei avere
+
+					<!-- Riga 3; Pagina 56-->
+					<lb xml:id="r3p56" facs="#gr_pag56_r3" n="3" break="no"/>
+					una macchina fotografica <choice><sic>perchè</sic><corr resp="#DM">perché</corr></choice> fra
+
+					<!-- Riga 4; Pagina 56-->
+					<lb xml:id="r4p56" facs="#gr_pag56_r4" n="4" break="yes"/>
+					qualche <subst><del rend="overstrike" hand="#EA">anno</del><add hand="#EA" place="above">tempo se saremo vivi</add></subst> sarà divertente <del rend="scribble" hand="#EA">ve</del> rive<pc type="hyphenation">=</pc>
+
+					<!-- Riga 5; Pagina 56-->
+					<lb xml:id="r5p56" facs="#gr_pag56_r5" n="5" break="no"/>
+					dere le topaie in cui ci siamo ridotti<supplied reason="omitted-in-original" resp="#DM"><pc type="quote">"</pc></supplied></q>
+
+					<!-- Riga 6; Pagina 56-->
+					<lb xml:id="r6p56" facs="#gr_pag56_r6" n="6" break="no"/>
+					e siccome io tentavo di difendere la
+
+					<!-- Riga 7; Pagina 56-->
+					<lb xml:id="r7p56" facs="#gr_pag56_r7" n="7" break="no"/>
+					mia abitazione aggiunse<pc type="colon">:</pc><q type="spoken"><supplied reason="omitted-in-original" resp="#DM"><pc type="quote">"</pc></supplied>due anni fa<pc type="comma">,</pc>
+
+					<!-- Riga 8; Pagina 56-->
+					<lb xml:id="r8p56" facs="#gr_pag56_r8" n="8" break="no"/>
+					se ti avessero detto che dovevi <del rend="overstrike" hand="#EA">dormire</del>
+
+					<!-- Riga 9; Pagina 56-->
+					<lb xml:id="r9p56" facs="#gr_pag56_r9" n="9" break="no"/>
+					vivere qui<pc type="comma">,</pc> saresti morto per lo spavento<supplied reason="omitted-in-original" resp="#DM"><pc type="quote">"</pc></supplied></q><pc type="period">.</pc>
+
+					<!-- Riga 10; Pagina 56-->
+					<lb xml:id="r10p56" facs="#gr_pag56_r10" n="10" break="no"/>
+					Mi sono comprato un bacile <add hand="#EA" place="above">di alluminio</add> che costa <num type="cardinal" value="40">40</num>
+
+					<!-- Riga 11; Pagina 56-->
+					<lb xml:id="r11p56" facs="#gr_pag56_r11" n="11" break="no"/>
+					lire e che mi servirà per <num type="cardinal" value="3">tre</num> usi<pc type="colon">:</pc> <unclear cert="high"><supplied resp="#DM" cert="high">secchio</supplied></unclear>
+
+					<!-- Riga 12; Pagina 56-->
+					<lb xml:id="r12p56" facs="#gr_pag56_r12" n="12" break="yes"/>
+					per attingere l'acqua dal pozzo<pc type="comma">,</pc> ca<pc type="hyphenation">=</pc>
+
+					<!-- Riga 13; Pagina 56-->
+					<lb xml:id="r13p56" facs="#gr_pag56_r13" n="13" break="no"/>
+					tino per lavarmi e catino per lavare
+
+					<!-- Riga 14; Pagina 56-->
+					<lb xml:id="r14p56" facs="#gr_pag56_r14" n="14" break="no"/>
+					gli indumenti<pc type="period">.</pc> Mi sono già lavato <num type="cardinal" value="3">tre</num>
+
+					<!-- Riga 15; Pagina 56-->
+					<lb xml:id="r15p56" facs="#gr_pag56_r15" n="15" break="no"/>
+					fazzoletti<pc type="comma">,</pc> lavoro in cui riesco piuttosto
+
+					<!-- Riga 16; Pagina 56-->
+					<lb xml:id="r16p56" facs="#gr_pag56_r16" n="16" break="no"/>
+					bene<pc type="period">.</pc> Ormai questa casa diventa più
+
+					<!-- Riga 17; Pagina 56-->
+					<lb xml:id="r17p56" facs="#gr_pag56_r17" n="17" break="no"/>
+					comoda e più arredata<pc type="semicolon">;</pc> la governo
+
+					<!-- Riga 18; Pagina 56-->
+					<lb xml:id="r18p56" facs="#gr_pag56_r18" n="18" break="no"/>
+					con una grande razionalità e
+
+					<!-- Riga 19; Pagina 56-->
+					<lb xml:id="r19p56" facs="#gr_pag56_r19" n="19" break="no"/>
+					senza pregiudizi<pc type="comma">,</pc> in modo da avere
+
+					<!-- Riga 20; Pagina 56-->
+					<lb xml:id="r20p56" facs="#gr_pag56_r20" n="20" break="no"/>
+					il minimo disturbo e il massimo
+
+					<!-- Riga 21; Pagina 56-->
+					<lb xml:id="r21p56" facs="#gr_pag56_r21" n="21" break="no"/>
+					di comodità<pc type="period">.</pc> Vedo che mi calunniano
+
+					<!-- Riga 22; Pagina 56-->
+					<lb xml:id="r22p56" facs="#gr_pag56_r22" n="22" break="no"/>
+					e che mi calunniavano dicendo che mancavo
+
+				</ab>
+
+				<ab type="page" n="357" xml:lang="it">
+
+					<!-- Indica l'inizio di una pagina in un documento (Pagina 57)-->
+					<pb xml:id="pag57" facs="#fs_pag57"/>
+					
+
+					<!-- Riga 1; Pagina 57-->
+					<lb xml:id="r1p57" facs="#gr_pag57_r1" n="1" break="no"/>
+					di spirito prat<damage agent="fire"><supplied reason="damaged" resp="#DM" cert="high">ico<pc type="comma">,</pc> in</supplied></damage> poche settimane<pc type="comma">,</pc>
+
+					<!-- Riga 2; Pagina 57-->
+					<lb xml:id="r2p57" facs="#gr_pag57_r2" n="2" break="no"/>
+					da quando ho lasciato l'albergo per
+
+					<!-- Riga 3; Pagina 57-->
+					<lb xml:id="r3p57" facs="#gr_pag57_r3" n="3" break="no"/>
+					l'infermeria<pc type="comma">,</pc> ho fatto grandi progressi<pc type="period">.</pc> <add hand="#EA" place="top" facs="#add_pag57_r3">Solo ieri non mi riusciva di accendere i fiammiferi<pc type="comma">,</pc> oggi ho acceso benissimo subito il primo</add><supplied reason="omitted-in-original" resp="#DM"><pc type="period">.</pc></supplied>
+
+					<!-- Riga 4; Pagina 57-->
+					<lb xml:id="r4p57" facs="#gr_pag57_r4" n="4" break="no"/>
+					Oggi <persName ref="#LE">Leone</persName> rideva ricordando che
+
+					<!-- Riga 5; Pagina 57-->
+					<lb xml:id="r5p57" facs="#gr_pag57_r5" n="5" break="no"/>
+					qualche sera fa andai per attingere
+
+					<!-- Riga 6; Pagina 57-->
+					<lb xml:id="r6p57" facs="#gr_pag57_r6" n="6" break="no"/>
+					l'acqua<pc type="comma">,</pc> ma legai male la secchia<pc type="comma">,</pc> di
+
+					<!-- Riga 7; Pagina 57-->
+					<lb xml:id="r7p57" facs="#gr_pag57_r7" n="7" break="no"/>
+					modo che si sciolse e tornai a casa
+
+					<!-- Riga 8; Pagina 57-->
+					<lb xml:id="r8p57" facs="#gr_pag57_r8" n="8" break="yes"/>
+					dicendo tutto mortificato<pc type="colon">:</pc><q type="spoken"><supplied reason="omitted-in-original" resp="#DM"><pc type="quote">"</pc></supplied><add hand="#EA" place="below">La corda</add> <choice><orig>&#200;</orig><reg>è</reg></choice> tor<pc type="hyphenation">=</pc>
+
+					<!-- Riga 9; Pagina 57-->
+					<lb xml:id="r9p57" facs="#gr_pag57_r9" n="9" break="no"/>
+					nata da sola<del rend="overstrike">mente</del><supplied reason="omitted-in-original" resp="#DM"><pc type="quote">"</pc></supplied></q> ma
+
+					<!-- Riga 10; Pagina 57-->
+					<lb xml:id="r10p57" facs="#gr_pag57_r10" n="10" break="no"/>
+					ora non mi capiterebbe più<pc type="period">.</pc> Inoltre
+
+					<!-- Riga 11; Pagina 57-->
+					<lb xml:id="r11p57" facs="#gr_pag57_r11" n="11" break="no"/>
+					ho fatto una scoperta e cioè che se ci
+
+					<!-- Riga 12; Pagina 57-->
+					<lb xml:id="r12p57" facs="#gr_pag57_r12" n="12" break="no"/>
+					si dà da fare nei lavori pratici ci si
+
+					<!-- Riga 13; Pagina 57-->
+					<lb xml:id="r13p57" facs="#gr_pag57_r13" n="13" break="no"/>
+					rende molto più simpatici alla gente<pc type="comma">,</pc> che
+
+					<!-- Riga 14; Pagina 57-->
+					<lb xml:id="r14p57" facs="#gr_pag57_r14" n="14" break="no"/>
+					apprezza anche di più le qualità intellettuali<pc type="period">.</pc>
+
+					<!-- Riga 15; Pagina 57-->
+					<lb xml:id="r15p57" facs="#gr_pag57_r15" n="15" break="no"/>
+					Se non si sa fare niente<pc type="comma">,</pc> o non se ne ha voglia<pc type="comma">,</pc>
+
+					<!-- Riga 16; Pagina 57-->
+					<lb xml:id="r16p57" facs="#gr_pag57_r16" n="16" break="no"/>
+					i manovali restano molto <add hand="#EA" place="above">malignamente</add> soddisfatti <del rend="scribble"><gap reason="deleted" quantity="1" unit="chars"/></del><pc type="period">.</pc>
+
+					<!-- Riga 17; Pagina 57-->
+					<lb xml:id="r17p57" facs="#gr_pag57_r17" n="17" break="no"/>
+					Ora cenerò<pc type="comma">,</pc> sono le <time when="18:30"><num type="cardinal"> sei</num> e mezza</time><pc type="comma">,</pc> studierò
+
+					<!-- Riga 18; Pagina 57-->
+					<lb xml:id="r18p57" facs="#gr_pag57_r18" n="18" break="no"/>
+					fino alle <time when="20:00"><num type="cardinal">otto</num></time> o alle <time when="21:00"><num type="cardinal"><choice><orig>9</orig><reg>nove</reg></choice></num></time><pc type="comma">,</pc> la prima volta
+
+					<!-- Riga 19; Pagina 57-->
+					<lb xml:id="r19p57" facs="#gr_pag57_r19" n="19" break="no"/>
+					dopo più di un mese di astinenza e poi<pc type="comma">,</pc>
+
+					<!-- Riga 20; Pagina 57-->
+					<lb xml:id="r20p57" facs="#gr_pag57_r20" n="20" break="no"/>
+					se i topi sarano buoni <del rend="overstrike">andrò</del> dormirò
+
+					<!-- Riga 21; Pagina 57-->
+					<lb xml:id="r21p57" facs="#gr_pag57_r21" n="21" break="no"/>
+					fino a domani mattina<pc type="period">.</pc> Papà e la mamma
+
+					<!-- Riga 22; Pagina 57-->
+					<lb xml:id="r22p57" facs="#gr_pag57_r22" n="22" break="no"/>
+					mi hanno mandato una cartolina da
+
+					<!-- Riga 23; Pagina 57-->
+					<lb xml:id="r23p57" facs="#gr_pag57_r23" n="23" break="no"/>
+					<placeName ref="#CN">Castelnuovo</placeName><pc type="comma">,</pc> scritta da altra mano e
+
+					<!-- Riga 24; Pagina 57-->
+					<lb xml:id="r24p57" facs="#gr_pag57_r24" n="24" break="no"/>
+					firmata <del rend="overstrike">Ansaldi</del> <del rend="overstrike"><gap reason="deleted" atLeast="3" atMost="5" unit="chars"/></del> <persName>Ansaldi</persName>
+
+				</ab>
+
+			</div>
+
+		</body>
+
+		<!-- APPENDICI-->
+		<back>
+			<div>
+
+				<!--LISTA DEI LUOGHI-->
+				<listPlace>
+
+					<!-- TORRE PELLICE-->
+					<place xml:id="TP">
+                    	<placeName ref="https://www.geonames.org/6539527/torre-pellice.html https://www.treccani.it/enciclopedia/torre-pellice/">Torre Pellice</placeName>
+						<country key="IT" type="nation">Italia</country>
+						<desc>Torre Pellice è un comune italiano della città metropolitana di Torino, nella Val Pellice, in Piemonte.</desc>
+                    </place>
+
+					<!-- SVIZZERA-->
+					<place xml:id="CH">
+                    	<placeName ref="https://www.geonames.org/countries/CH/switzerland.html https://www.treccani.it/enciclopedia/svizzera/">Svizzera</placeName>
+						<country key="CH" type="nation">Svizzera</country>
+                    </place>
+
+					<!-- AOSTA -->
+				    <place xml:id="AO">
+						<placeName ref="https://www.geonames.org/3182997/aosta.html https://www.treccani.it/enciclopedia/aosta/">Aosta</placeName>
+						<country key="IT" type="nation">Italia</country>
+				    </place>
+
+					<!-- TORINO -->
+				    <place xml:id="TO">
+						<placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
+						<country key="IT" type="nation">Italia</country>
+				    </place>
+
+					<!-- COURMAYEUR-->
+					<place xml:id="CM">
+                    	<placeName ref="https://www.geonames.org/6540318/courmayeur.html https://www.treccani.it/enciclopedia/courmayeur/">Courmayeur</placeName>
+						<country key="IT" type="nation">Italia</country>
+						<desc>Courmayeur è un comune italiano dell'alta Valdigne, in Valle d'Aosta: rinomata località turistica invernale ed estiva delle Alpi, sul suo territorio comunale si trova la montagna più alta d'Italia e dell'Europa centrale, il Monte Bianco</desc>
+                    </place>
+
+					<!-- CASTELNUOVO NIGRA-->
+					<place xml:id="CN">
+                    	<placeName ref="https://www.geonames.org/6540909/castelnuovo-nigra.html https://www.treccani.it/enciclopedia/castelnuovo-nigra/">Castelnuovo Nigra</placeName>
+						<country key="IT" type="nation">Italia</country>
+						<desc>Castelnuovo Nigra è un comune italiano sparso di 401 abitanti della città metropolitana di Torino in Piemonte il cui capoluogo è Sale Castelnuovo.</desc>
+                    </place>
+					
+
+				</listPlace>
+
+				<!-- LISTA DELLE PERSONE-->
+				<listPerson>
+				
+					<!-- EMANUELE ARTOM -->
+					<person xml:id="EA" sameAs="http://viaf.org/viaf/69734166">
+						<persName role="partisan">
+							<forename>Emanuele</forename>
+							<surname>Artom</surname>
+							<addName type="alias">Eugenio Ansaldi</addName>
+							<ref target="https://it.wikipedia.org/wiki/Emanuele_Artom"/>
+						</persName>
+						<birth>
+							<date when="1915-06-23">23 giugno 1915</date>
+                            <placeName ref="#AO">
+								<settlement type="municipality">Aosta</settlement>
+								<settlement type="provincia" key="AO">Aosta</settlement>
+								<country key="IT" type="nation">Italia</country>
+							</placeName>
+						</birth>
+						<sex>M</sex>
+						<death>
+							<date when="1944-04-7">7 aprile 1944</date>
+                           	<placeName ref="#TO">
+                            	<settlement type="municipality">Torino</settlement>
+                            	<settlement type="provincia" key="TO">Torino</settlement>
+								<country key="IT" type="nation">Italia</country>
+                            </placeName>
+						</death>
+						<note>
+							Emanuele Artom è stato un partigiano e storico italiano di origine ebraica, combattente della resistenza.
+						</note>
+					</person>
+
+					<!-- AMALIA SEGRE ARTOM -->
+					<person xml:id="ASA">
+						<persName role="teacher">
+							<forename>Amalia</forename>
+					    	<surname>Segre</surname>
+					    	<ref target="http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-017448/segre-amalia.html?persone=%22Segre%2C+Amalia%22"/>
+						</persName>
+						<sex>F</sex>
+						<birth>
+					    	<date when="1890">1890</date>
+					    	<placeName ref="#TO">
+							<settlement type="municipality">Torino</settlement>
+							<settlement type="provincia" key="TO">Torino</settlement>
+							<country key="IT" type="nation">Italia</country>
+					    	</placeName>
+						</birth>
+						<death>
+					    	<date when="1972-10-09">09 Ottobre 1972</date>
+					    	<placeName ref="#TO">
+							<settlement type="municipality">Torino</settlement>
+							<settlement type="provincia" key="TO">Torino</settlement>
+							<country key="IT" type="nation">Italia</country>
+					    	</placeName>
+						</death>
+						<note>Madre di Emanuele Artom. Conservò parte della docummentazione per garantire la fruibilità dei Diari quali fonti storiche sull'ebraismo e sulla Resistenza in Italia.</note>
+				    </person>
+
+					<!-- ANGELO MARIO DEL GROSSO -->
+					<person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025">
+						<persName>
+							<forename>Angelo</forename>
+						   	<forename>Mario</forename>
+						    <surname>Del Grosso</surname>
+						</persName>			
+						<sex>M</sex>
+					</person>
+
+					<!-- DANIELE MACCHIARINI -->
+				    <person xml:id="DM">
+						<persName>
+							<forename>Daniele</forename>
+							<surname>Macchiarini</surname>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="2001-05-14">14 Maggio 2001</date>
+						</birth>
+				    </person>
+
+					<!-- LEONE -->
+				    <person xml:id="LE">
+						<persName> 
+							<forename>Leone</forename>
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date>Sconosciuta</date>
+						</birth>
+						<death>
+							<date>Sconosciuta</date>
+						</death>
+						<note>Citato da Emanuele Artom a pagina 57.</note>
+				    </person>
+				
+				</listPerson>
+
+				<!-- LISTA PRGANIZZAZIONI -->
+				<listOrg>
+
+					<!-- CDEC -->
+						<org xml:id="CDEC" role="history insitute">
+							<orgName ref="https://www.cdec.it/">Centro di documentazione ebraica contemporanea</orgName>
+							<desc>
+								Il CDEC è una fondazione impegnata in attività di ricerca sia di carattere storico che sociologico.
+								Gli ambiti di maggiore impegno sono la storia della Shoah, la storia e la cultura degli ebrei in età contemporanea.
+							</desc>
+							<country key="IT" type="nation">Italia</country>					
+						</org>
+				</listOrg>
+
+			</div>
+		</back>
+
+	</text>
+
+</TEI>
